@@ -34,6 +34,7 @@ public class EnemySpawnerController : MonoBehaviour
 
         Instantiate(enemy[randomindex], randomSpawnPos, enemy[randomindex].transform.rotation);
     }
+
     IEnumerator SpawnRate()
     {
         yield return new WaitForSeconds(5.0f);

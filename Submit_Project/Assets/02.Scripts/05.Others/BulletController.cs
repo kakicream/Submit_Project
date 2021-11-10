@@ -5,10 +5,7 @@ using UnityEngine;
 public class BulletController : MonoBehaviour
 {
     private Rigidbody bulletRb;
-    [SerializeField] private float bulletSpeed;
-
-    private float destroyZPos = 150.0f;
-
+    
     void Start()
     {
         bulletRb = GetComponent<Rigidbody>();
@@ -18,10 +15,6 @@ public class BulletController : MonoBehaviour
     void Update()
     {
         bulletRb.AddForce(Vector3.forward, ForceMode.Impulse);
-        if (transform.position.z > destroyZPos)
-        {
-            Destroy(gameObject);
-        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -31,7 +24,11 @@ public class BulletController : MonoBehaviour
             PlaySceneUI.AddPoint(EnemyController.enemyPointToBullet);
             Destroy(other.gameObject);
             /***** Abstraction *****/
-            ReLoadBullets();
+            ReLoadBullets();            
+            Destroy(gameObject);
+        }
+        else if (other.gameObject.CompareTag("DESTROYER"))
+        {
             Destroy(gameObject);
         }
     }

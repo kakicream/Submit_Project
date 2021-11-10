@@ -6,8 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class PlaySceneUI : MonoBehaviour
 {
-    public TextMeshProUGUI highScore;
-    private static TextMeshProUGUI level;
     private static int levelUpScore = 100;
     private static int currLevel = 1;
     public static int speedUpper
@@ -15,9 +13,13 @@ public class PlaySceneUI : MonoBehaviour
         get { return currLevel; }
         set { currLevel = value; }
     }
-    private static int levelChecker;
+
+    public TextMeshProUGUI highScore;
+    private static TextMeshProUGUI level;
     private static TextMeshProUGUI currScore;
     public static int currentScore;
+
+    private static int levelChecker;
 
     private static TextMeshProUGUI load;
 
@@ -32,7 +34,7 @@ public class PlaySceneUI : MonoBehaviour
         level.SetText($"Level : {currLevel}");
 
         currScore = GameObject.Find("Score").GetComponent<TextMeshProUGUI>();
-        
+
         UpdateLoad();
     }
 
@@ -51,15 +53,21 @@ public class PlaySceneUI : MonoBehaviour
     public static int AddPoint(int _enemyPoints)
     {
         levelChecker += _enemyPoints;
+        LevelUpCheck();
+
+        currentScore += _enemyPoints;
+        currScore.SetText($"Score : {currentScore}");
+        return currentScore;
+    }
+
+    static void LevelUpCheck()
+    {
         if (levelChecker >= levelUpScore)
         {
             currLevel++;
             level.SetText($"Level : {currLevel}");
             levelChecker = 0;
         }
-        currentScore += _enemyPoints;
-        currScore.SetText($"Score : {currentScore}");
-        return currentScore;
     }
 
     public static void UpdateLoad()

@@ -4,7 +4,7 @@ using UnityEngine;
 
 /***** Inheritance *****/
 public class CubeEnemyController : EnemyController
-{ 
+{
     void Start()
     {
         enemyPoints = 20;

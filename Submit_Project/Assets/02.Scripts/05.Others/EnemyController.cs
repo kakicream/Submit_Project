@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    [SerializeField] protected float enemySpeed;
-    private float destroyZPos = -7.0f;
-
     [SerializeField] protected static int enemyPoints;
+
+    [SerializeField] protected float enemySpeed;
     [SerializeField] protected float speedAmplifier;
 
     protected Rigidbody enemyRb;
@@ -26,12 +25,11 @@ public class EnemyController : MonoBehaviour
     public virtual void Movement()
     {
         enemyRb.AddForce(Vector3.back * enemySpeed * speedAmplifier);
-        destroyEnemy();
     }
 
-    void destroyEnemy()
+    private void OnTriggerEnter(Collider other)
     {
-        if (transform.position.z <= destroyZPos)
+        if (other.CompareTag("GAMEOVER"))
         {
             GameManager.isGameOver_GM = true;
             Destroy(gameObject);

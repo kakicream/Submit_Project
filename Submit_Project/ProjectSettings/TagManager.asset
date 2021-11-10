@@ -6,6 +6,8 @@ TagManager:
   tags:
   - BULLET
   - ENEMY
+  - DESTROYER
+  - GAMEOVER
   layers:
   - Default
   - TransparentFX

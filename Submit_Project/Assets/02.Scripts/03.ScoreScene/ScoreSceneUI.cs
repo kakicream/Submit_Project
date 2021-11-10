@@ -6,24 +6,21 @@ using TMPro;
 
 public class ScoreSceneUI : MonoBehaviour
 {
-    // Load the current high score
-    // Receive this time's play score
-    [SerializeField] private string recordHolder;
-    [SerializeField] string thisTimePlayerName;
-
-    [SerializeField] private int highScore;
-    [SerializeField] private int currScore;
-
-
-    private bool canMoveOn = false;
-
     public TextMeshProUGUI resultMessage;
     public GameObject instructionText;
+
+    [SerializeField] private string recordHolder;
+    [SerializeField] string thisTimePlayerName;
 
     public TextMeshProUGUI highScoreSoFar;
     public TextMeshProUGUI scoreThisTime;
 
-    [SerializeField] private float instructionAppearTime = 2.0f;
+
+    [SerializeField] private int highScore;
+    [SerializeField] private int currScore;
+
+    private bool canMoveOn = false;
+    [SerializeField] private float instructionAppearTime = 1.0f;
 
     void Start()
     {

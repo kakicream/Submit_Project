@@ -5,16 +5,16 @@ using System.IO;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager Instance;
-    public string playerName;
-    public int highScore;
-
     private static bool isGameOver;
     public static bool isGameOver_GM
     {
         get { return isGameOver; }
         set { isGameOver = value; }
     }
+
+    public static GameManager Instance;
+    public string playerName;
+    public int highScore;
 
     private void Awake()
     {
@@ -31,11 +31,12 @@ public class GameManager : MonoBehaviour
         {
             playerName = "AAA";
         }
+
         Debug.Log(playerName);
         Debug.Log(highScore);
     }
 
-    // Save PlayerData
+    #region Save & Load Data
     [System.Serializable]
     class SavePlayerData
     {
@@ -65,6 +66,5 @@ public class GameManager : MonoBehaviour
             highScore = data.SD_highScore;
         }
     }
-
-
+    #endregion
 }
