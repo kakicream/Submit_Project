@@ -8,8 +8,8 @@ public class SphereEnemyController : EnemyController
     void Start()
     {
         enemyPoints = 10;
-        enemySpeed = 10.0f;
-        speedAmplifier = Mathf.Abs(Mathf.Sin(Time.time));
+        enemySpeed =  10.0f;
+        speedAmplifier = 1f;//Mathf.Abs(Mathf.Sin(Time.time));
         enemyRb = GetComponent<Rigidbody>();
     }
 

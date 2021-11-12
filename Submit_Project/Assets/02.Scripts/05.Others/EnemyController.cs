@@ -11,9 +11,11 @@ public class EnemyController : MonoBehaviour
 
     protected Rigidbody enemyRb;
 
+    public ParticleSystem explosionParticle;
+
     private void Start()
     {
-        enemyRb = GetComponent<Rigidbody>();        
+        enemyRb = GetComponent<Rigidbody>();
     }
 
     public static int enemyPointToBullet
@@ -34,5 +36,10 @@ public class EnemyController : MonoBehaviour
             GameManager.isGameOver_GM = true;
             Destroy(gameObject);
         }
+    }
+
+    private void OnDestroy()
+    {
+        Instantiate(explosionParticle, transform.position, explosionParticle.transform.rotation);
     }
 }

@@ -26,8 +26,8 @@ public class CreditsUIManager : MonoBehaviour
     private string graphicAssetName1 = "Low Poly SpaceRocks";
     private string graphicAssetCreator2 = "Prodigious Creations' ";
     private string graphicAssetName2 = "Vast Outer Space";
-    private string particleAssetCreator1 = "";
-    private string particleAssetName1 = "";
+    private string particleAssetCreator1 = "Sherbb's";
+    private string particleAssetName1 = "Sherbb's Particle Collection";
     private string soundAssetsBy = "Sound Assets by";
     private string soundAssetCreator1 = "???'s ";
     private string soundAssetName1 = "@@@";
@@ -40,7 +40,7 @@ public class CreditsUIManager : MonoBehaviour
     {
         canMoveOn = false;
     }
-    
+
 
     private void Start()
     {
@@ -56,6 +56,8 @@ public class CreditsUIManager : MonoBehaviour
             $"\n<color=#E0AAFF>{graphicAssetCreator2}</color>" +
             $" <color=#FFCD60>{graphicAssetName2}</color>" +
             $"\n{soundAssetsBy}" +
+            $"\n<color=#E0AAFF>{particleAssetCreator1}</color>" +
+            $" <color=#FFCD60>{particleAssetName1}</color>" +
             $"\n<color=#E0AAFF>{soundAssetCreator1}</color> " +
             $"<color=#FFCD60>{soundAssetName1}</color>");
 

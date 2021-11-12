@@ -9,7 +9,7 @@ public class CylinderEnemyController : EnemyController
     {
         enemyPoints = 15;
         enemySpeed = 10.0f;
-        speedAmplifier = Mathf.Exp(0.5f);
+        speedAmplifier = 1f;// Mathf.Exp(0.5f);
         enemyRb = GetComponent<Rigidbody>();
     }
 

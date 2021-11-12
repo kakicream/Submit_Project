@@ -9,7 +9,7 @@ public class CubeEnemyController : EnemyController
     {
         enemyPoints = 20;
         enemySpeed = 10.0f;
-        speedAmplifier = Mathf.Log10(50);
+        speedAmplifier = 1f;//Mathf.Log10(50);
         enemyRb = GetComponent<Rigidbody>();
     }
 

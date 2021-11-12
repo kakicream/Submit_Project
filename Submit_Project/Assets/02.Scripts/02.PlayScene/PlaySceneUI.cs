@@ -40,6 +40,11 @@ public class PlaySceneUI : MonoBehaviour
 
     void Update()
     {
+        GameOverChecker();
+    }
+
+    void GameOverChecker()
+    {
         if (GameManager.isGameOver_GM == true)
         {
             gameoverText.SetActive(true);
@@ -47,6 +52,11 @@ public class PlaySceneUI : MonoBehaviour
             {
                 SceneManager.LoadScene(2);
             }
+        }
+
+        if(GameManager.isGameOver_GM == false && Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(0);
         }
     }
 

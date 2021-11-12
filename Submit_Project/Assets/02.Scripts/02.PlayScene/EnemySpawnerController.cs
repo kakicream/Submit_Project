@@ -15,6 +15,7 @@ public class EnemySpawnerController : MonoBehaviour
         InvokeRepeating("EnemySpawn", 1.0f, initSpawnRate / PlaySceneUI.speedUpper);
     }
 
+    // Gotta work on spawning rates
     void Update()
     {
         if (GameManager.isGameOver_GM == true)
@@ -33,10 +34,5 @@ public class EnemySpawnerController : MonoBehaviour
         Vector3 randomSpawnPos = new Vector3(randomXPos*xRange, randomYPos*yRange, zPos);
 
         Instantiate(enemy[randomindex], randomSpawnPos, enemy[randomindex].transform.rotation);
-    }
-
-    IEnumerator SpawnRate()
-    {
-        yield return new WaitForSeconds(5.0f);
     }
 }

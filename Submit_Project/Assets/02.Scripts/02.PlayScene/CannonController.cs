@@ -24,9 +24,18 @@ public class CannonController : MonoBehaviour
 
     void Update()
     {
+        GameOverChecker();
+    }
+
+    void GameOverChecker()
+    {
         if (GameManager.isGameOver_GM == false)
         {
             ProduceBullet();
+        }
+        if (GameManager.isGameOver_GM == true)
+        {
+            Destroy(gameObject);
         }
     }
 
