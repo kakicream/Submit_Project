@@ -12,7 +12,7 @@ submission 2 for jr programmer pathway
 
 *** Notes ***
 The codes and the functionalities are different by branches
-1. Main : Just basic prototype - This version
+1. Main : Just basic prototype - This Version
 2. Graphics Added : More refined graphics compared to Main
 3. Audio Added : Fancier effects and SFX are added
 
