@@ -4504,3 +4504,403 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3309.987771 seconds.
+  path: Assets/Scifi Guns SFX Pack
+  artifactKey: Guid(fd05383f3c9b64c3a81c0eb811b7d88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Guns SFX Pack using Guid(fd05383f3c9b64c3a81c0eb811b7d88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79010a26d2b86f2e1e5c2401d5f4ac0') in 0.011409 seconds 
+  Import took 0.016542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.917420 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ambiances/WAV/scape_ambience_1.wav
+  artifactKey: Guid(d861a4332e0419140bd1766069886b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ambiances/WAV/scape_ambience_1.wav using Guid(d861a4332e0419140bd1766069886b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff66c3048586e96f073768b26c5f704') in 0.467320 seconds 
+  Import took 0.470272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002018 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/WAV/scape_lowrumble_5.wav
+  artifactKey: Guid(1dce55d48eae682439dd248a38285cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/WAV/scape_lowrumble_5.wav using Guid(1dce55d48eae682439dd248a38285cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d48fa97c0533aef12a6dd18efe22ad5') in 0.017307 seconds 
+  Import took 0.020904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/WAV/scape_shipambience_2_sparse.wav
+  artifactKey: Guid(67c5c3df3684a444caebf87b1a3ad0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/WAV/scape_shipambience_2_sparse.wav using Guid(67c5c3df3684a444caebf87b1a3ad0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f793a12af337d9e975408243b8f12b31') in 0.008672 seconds 
+  Import took 0.011808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/WAV/scape_glitches_1_sparse.wav
+  artifactKey: Guid(9e004b15510d6424c9e0528f34b36a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/WAV/scape_glitches_1_sparse.wav using Guid(9e004b15510d6424c9e0528f34b36a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a262557d34b58a0a516ced3b2022314') in 0.010352 seconds 
+  Import took 0.015749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/WAV/scape_glitches_2_sparse.wav
+  artifactKey: Guid(e48bef0907cf22046a467c383552482c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/WAV/scape_glitches_2_sparse.wav using Guid(e48bef0907cf22046a467c383552482c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf2dff4632f05e3d6496162b0c7684c') in 0.009357 seconds 
+  Import took 0.011757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/WAV/scape_shipambience_1_sparse.wav
+  artifactKey: Guid(702c927c2fd601f4dbd7809a70e14d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/WAV/scape_shipambience_1_sparse.wav using Guid(702c927c2fd601f4dbd7809a70e14d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180d2218803d5640e8406d095790d010') in 0.009295 seconds 
+  Import took 0.012593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/WAV/scape_glitches_4_sparse.wav
+  artifactKey: Guid(aac8efe5f3f80b240b0a33eb5d6c5a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/WAV/scape_glitches_4_sparse.wav using Guid(aac8efe5f3f80b240b0a33eb5d6c5a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57212c94981c6685fd79ceca95dd8dab') in 0.009666 seconds 
+  Import took 0.013455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/WAV/scape_shipambience_3_sparse.wav
+  artifactKey: Guid(5a5fa1c049d6a434b816ecd04c135196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/WAV/scape_shipambience_3_sparse.wav using Guid(5a5fa1c049d6a434b816ecd04c135196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b617bebb74127a68e4d54ec2f44a3d') in 0.009430 seconds 
+  Import took 0.012217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/WAV/scape_lowrumble_2.wav
+  artifactKey: Guid(98bef33a7cea5d147a704aad2ebc8319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/WAV/scape_lowrumble_2.wav using Guid(98bef33a7cea5d147a704aad2ebc8319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00e3fc03c2e41e4a739824bd8360b13') in 0.011076 seconds 
+  Import took 0.013690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/WAV/scape_lowrumble_4.wav
+  artifactKey: Guid(6cdefa71bba01b148907f91bb7cbd20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/WAV/scape_lowrumble_4.wav using Guid(6cdefa71bba01b148907f91bb7cbd20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f1fafeedab10e586897c1e830db28b') in 0.009861 seconds 
+  Import took 0.013567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ambiances/WAV/scape_ambience_2.wav
+  artifactKey: Guid(5c2c35e86eefc594da8035164e7731c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ambiances/WAV/scape_ambience_2.wav using Guid(5c2c35e86eefc594da8035164e7731c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3400c3c9f1b20a6c797974a359cfc21d') in 0.009523 seconds 
+  Import took 0.012402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/WAV/scape_lowrumble_3.wav
+  artifactKey: Guid(21a287596a62096458ddf09b55874d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/WAV/scape_lowrumble_3.wav using Guid(21a287596a62096458ddf09b55874d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61dcd2622b52300a756c9235edf3b2d') in 0.009602 seconds 
+  Import took 0.012635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/WAV/scape_lowrumble_1.wav
+  artifactKey: Guid(c21425145d05632489dcf6d807996158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/WAV/scape_lowrumble_1.wav using Guid(c21425145d05632489dcf6d807996158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84aaa9b408e67bc7c93a2882fb1e4d66') in 0.010294 seconds 
+  Import took 0.013558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/WAV/scape_glitches_5_sparse.wav
+  artifactKey: Guid(81d52bb069dd7044dba073eca32c8d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/WAV/scape_glitches_5_sparse.wav using Guid(81d52bb069dd7044dba073eca32c8d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655617c66d808d2d3a8026fa8c51ff05') in 0.010188 seconds 
+  Import took 0.013389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/WAV/scape_glitches_3_sparse.wav
+  artifactKey: Guid(80cdd4d4457c9ed42ae0edd5a3a9eced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/WAV/scape_glitches_3_sparse.wav using Guid(80cdd4d4457c9ed42ae0edd5a3a9eced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0039a625783cf3bcdab59a7f511ba336') in 0.009566 seconds 
+  Import took 0.012548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/MP3/scape_glitches_5_sparse.mp3
+  artifactKey: Guid(b9717994c52f5984eb0e5d0086b07acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/MP3/scape_glitches_5_sparse.mp3 using Guid(b9717994c52f5984eb0e5d0086b07acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a6372d7308c8c2c43784f40d3d11ba') in 0.313244 seconds 
+  Import took 0.316155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.103095 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes
+  artifactKey: Guid(5196fd56fb9d4954993dfda86f0b3e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes using Guid(5196fd56fb9d4954993dfda86f0b3e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1c5415691fd912da938a0f7902f7fd') in 0.006099 seconds 
+  Import took 0.009326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.170880 seconds.
+  path: Assets/01.Scenes/2.GamePlay.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01.Scenes/2.GamePlay.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ecb844b0118f8269d5fba771bd56ab') in 0.006555 seconds 
+  Import took 0.009988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.512391 seconds.
+  path: Assets/01.Scenes/3.ScoreScene.unity
+  artifactKey: Guid(bf1d751db50594c3eaddec1615b93473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01.Scenes/3.ScoreScene.unity using Guid(bf1d751db50594c3eaddec1615b93473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047d582cd6a44a5d51c60f2202b2cf9e') in 0.006784 seconds 
+  Import took 0.010404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.538835 seconds.
+  path: Assets/05.Graphics/02.GraphicAssets/Vast Outer Space/Textures/Asteroid_A.png
+  artifactKey: Guid(67f12b7e625898645a875fc7db252ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Graphics/02.GraphicAssets/Vast Outer Space/Textures/Asteroid_A.png using Guid(67f12b7e625898645a875fc7db252ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8821d7e43ce27da969a7966c315124b') in 0.387703 seconds 
+  Import took 0.391090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002092 seconds.
+  path: Assets/05.Graphics/02.GraphicAssets/Vast Outer Space/Textures/Asteroid_B.png
+  artifactKey: Guid(47cf79e8868e8cf4a8380cba7b0dc684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Graphics/02.GraphicAssets/Vast Outer Space/Textures/Asteroid_B.png using Guid(47cf79e8868e8cf4a8380cba7b0dc684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f81ab80350bc89727313fdd1948e8f14') in 0.021060 seconds 
+  Import took 0.024258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/05.Graphics/02.GraphicAssets/Vast Outer Space/Textures/Asteroid_C.png
+  artifactKey: Guid(f2458c1aeb59f0549a39ea52b8bb6ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Graphics/02.GraphicAssets/Vast Outer Space/Textures/Asteroid_C.png using Guid(f2458c1aeb59f0549a39ea52b8bb6ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd8130796e646763d1b1e1b84181666') in 0.020280 seconds 
+  Import took 0.024071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/MP3/scape_shipambience_3_sparse.mp3
+  artifactKey: Guid(c05d8a8407438fb409f8d9fd2828b965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/MP3/scape_shipambience_3_sparse.mp3 using Guid(c05d8a8407438fb409f8d9fd2828b965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b083b8015075640552d93ca428953117') in 0.010597 seconds 
+  Import took 0.013593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/MP3/scape_shipambience_4_sparse.mp3
+  artifactKey: Guid(9178dca933b45544bbbbf7ca35c0c856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/MP3/scape_shipambience_4_sparse.mp3 using Guid(9178dca933b45544bbbbf7ca35c0c856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e146d768018e8ac5a406c06ba0dd5a') in 0.009446 seconds 
+  Import took 0.012894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/WAV/scape_shipambience_4_sparse.wav
+  artifactKey: Guid(070972404aeb8d44fad07213e89352a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/WAV/scape_shipambience_4_sparse.wav using Guid(070972404aeb8d44fad07213e89352a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec7f52ec84113819e9efd0c8dd9a178') in 0.009826 seconds 
+  Import took 0.012379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/WAV/scape_shipambience_5_sparse.wav
+  artifactKey: Guid(2614b9e7533517742b740d126dba5415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ambiances, Sound and Noisescapes/Space Ship Ambiances/WAV/scape_shipambience_5_sparse.wav using Guid(2614b9e7533517742b740d126dba5415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e55b41c1e6d836ba4c8b0d1ec2f2b7') in 0.009286 seconds 
+  Import took 0.012679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/05.Graphics/02.GraphicAssets/Vast Outer Space/Textures/Asteroid_D.png
+  artifactKey: Guid(4de4c1c9ca4451d48a4631828548eec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Graphics/02.GraphicAssets/Vast Outer Space/Textures/Asteroid_D.png using Guid(4de4c1c9ca4451d48a4631828548eec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057f371dbffa59d820d8159b5dec66ed') in 0.020311 seconds 
+  Import took 0.022285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/05.Graphics/02.GraphicAssets/Vast Outer Space/Textures/Asteroid_E.png
+  artifactKey: Guid(f8630c3c7060e4b4db685faeaf6cc301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Graphics/02.GraphicAssets/Vast Outer Space/Textures/Asteroid_E.png using Guid(f8630c3c7060e4b4db685faeaf6cc301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431529f93425245cfa920e7a3b6ef49c') in 0.018204 seconds 
+  Import took 0.020520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/05.Graphics/02.GraphicAssets/Vast Outer Space/Materials/Asteroid_A.mat
+  artifactKey: Guid(2ab70d44e5d7dd44290aeaf27fe1d7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Graphics/02.GraphicAssets/Vast Outer Space/Materials/Asteroid_A.mat using Guid(2ab70d44e5d7dd44290aeaf27fe1d7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8498e26262329a800c7ddc9e96e735f') in 0.254420 seconds 
+  Import took 0.258877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002450 seconds.
+  path: Assets/05.Graphics/02.GraphicAssets/Vast Outer Space/Materials/Asteroid_C.mat
+  artifactKey: Guid(e907e370a06d3ff49b3215387775ed67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Graphics/02.GraphicAssets/Vast Outer Space/Materials/Asteroid_C.mat using Guid(e907e370a06d3ff49b3215387775ed67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99808deef6fceefae21ccbe39348cc2f') in 0.018627 seconds 
+  Import took 0.022554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/05.Graphics/02.GraphicAssets/Vast Outer Space/Materials/Asteroid_B.mat
+  artifactKey: Guid(78fa8c6cf8494a8458e481f9665233b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Graphics/02.GraphicAssets/Vast Outer Space/Materials/Asteroid_B.mat using Guid(78fa8c6cf8494a8458e481f9665233b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1472a8834742aa4bd8bb750f985df5c') in 0.014178 seconds 
+  Import took 0.016892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/05.Graphics/02.GraphicAssets/Vast Outer Space/Materials/Asteroid_E.mat
+  artifactKey: Guid(faf502faf7e5c414d89caa4b6b589720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Graphics/02.GraphicAssets/Vast Outer Space/Materials/Asteroid_E.mat using Guid(faf502faf7e5c414d89caa4b6b589720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7a695ad2404264a12e7186016f83f2') in 0.012904 seconds 
+  Import took 0.015173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/05.Graphics/02.GraphicAssets/Vast Outer Space/Materials/Asteroid_D.mat
+  artifactKey: Guid(535a9a8f731dfd544b3bfd12756e002f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Graphics/02.GraphicAssets/Vast Outer Space/Materials/Asteroid_D.mat using Guid(535a9a8f731dfd544b3bfd12756e002f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a61e455aeffda84ee4fbe6f404f0e8') in 0.013443 seconds 
+  Import took 0.016454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.974112 seconds.
+  path: Assets/03.Prefabs/Enemy/Enemy 1.prefab
+  artifactKey: Guid(f9a1dd46aa8da40808d0865b6245467d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/Enemy/Enemy 1.prefab using Guid(f9a1dd46aa8da40808d0865b6245467d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01674feeec6eb593fee8d98bd5a965f2') in 0.056512 seconds 
+  Import took 0.059794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.649904 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Plasma, Energy and Lazer Weapons/WAV/sfx_assault_rifle_3.wav
+  artifactKey: Guid(b4b6a720b0ba76d40aa26206b1f17218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Plasma, Energy and Lazer Weapons/WAV/sfx_assault_rifle_3.wav using Guid(b4b6a720b0ba76d40aa26206b1f17218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f58ce01ed0c70b4b57713d64a919ed') in 0.016958 seconds 
+  Import took 0.022350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Plasma, Energy and Lazer Weapons/WAV/sfx_assault_rifle_3_loop.wav
+  artifactKey: Guid(4819d12a8c7b12a41ac76063590a1dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Plasma, Energy and Lazer Weapons/WAV/sfx_assault_rifle_3_loop.wav using Guid(4819d12a8c7b12a41ac76063590a1dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8a8ddef5bd6434f4307b9c542848dc') in 0.012040 seconds 
+  Import took 0.015001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Friendly and Enemy Robot Voices/Ally/WAV/sfx_beepdot_robot_sound3.wav
+  artifactKey: Guid(d8591ce332c791a488082ab8054c4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Friendly and Enemy Robot Voices/Ally/WAV/sfx_beepdot_robot_sound3.wav using Guid(d8591ce332c791a488082ab8054c4224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ae5752516a029c5496c6a9e4f9ae7b') in 0.009797 seconds 
+  Import took 0.013050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Friendly and Enemy Robot Voices/Ally/WAV/sfx_beepdot_robot_sound1.wav
+  artifactKey: Guid(83e034169ef3863499e0115e87d0f5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Friendly and Enemy Robot Voices/Ally/WAV/sfx_beepdot_robot_sound1.wav using Guid(83e034169ef3863499e0115e87d0f5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd02ebd6641fbbf62b24fe6014b861e7') in 0.008367 seconds 
+  Import took 0.010710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Friendly and Enemy Robot Voices/Ally/WAV/sfx_beepdot_robot_sound2.wav
+  artifactKey: Guid(89686c7d44eff6a4da0e85208b4c4522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Friendly and Enemy Robot Voices/Ally/WAV/sfx_beepdot_robot_sound2.wav using Guid(89686c7d44eff6a4da0e85208b4c4522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57f3ef4c7f93949b19f57d3df617700') in 0.008306 seconds 
+  Import took 0.011561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ultra Ships Sounds/WAV/sfx_flying_1.wav
+  artifactKey: Guid(c7e83f4da683c78439b40bdaab7d8dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ultra Ships Sounds/WAV/sfx_flying_1.wav using Guid(c7e83f4da683c78439b40bdaab7d8dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77bd7aad27d62b270b841497b05c39f3') in 0.008213 seconds 
+  Import took 0.011250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ultra Ships Sounds/WAV/sfx_engine_shutdown_1.wav
+  artifactKey: Guid(f336b80bb4a4bda41afd379cae8d183e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ultra Ships Sounds/WAV/sfx_engine_shutdown_1.wav using Guid(f336b80bb4a4bda41afd379cae8d183e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592a409155f8ce484feac39a6e9d0e08') in 0.010146 seconds 
+  Import took 0.013505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Plasma, Energy and Lazer Weapons/WAV/sfx_assault_rifle_4.wav
+  artifactKey: Guid(b91c1d0066de57946a355e9e4e621e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Plasma, Energy and Lazer Weapons/WAV/sfx_assault_rifle_4.wav using Guid(b91c1d0066de57946a355e9e4e621e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6082db793d9c7e4dcee87131b4f4882') in 0.008067 seconds 
+  Import took 0.011299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ultra Ships Sounds/WAV/sfx_engine_start.wav
+  artifactKey: Guid(ecf396a907cbc894fa8e6c930738a7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ultra Ships Sounds/WAV/sfx_engine_start.wav using Guid(ecf396a907cbc894fa8e6c930738a7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446c9663df36fd61b41b978b4a214e3f') in 0.007834 seconds 
+  Import took 0.010467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Plasma, Energy and Lazer Weapons/WAV/sfx_assault_rifle_4_loop.wav
+  artifactKey: Guid(1276376621f42ad40be667420d99b32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Plasma, Energy and Lazer Weapons/WAV/sfx_assault_rifle_4_loop.wav using Guid(1276376621f42ad40be667420d99b32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35af26d86dc6758c580447d4d081a40') in 0.008394 seconds 
+  Import took 0.011818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ultra Ships Sounds/WAV/sfx_flying_1_landing.wav
+  artifactKey: Guid(afdf89e676b0f1b458760bb78b0d2f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Ultra Ships Sounds/WAV/sfx_flying_1_landing.wav using Guid(afdf89e676b0f1b458760bb78b0d2f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845420c8820966d2ceb13e529b86027f') in 0.008074 seconds 
+  Import took 0.011018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.020399 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Plasma, Energy and Lazer Weapons/WAV/sfx_grenades _1.wav
+  artifactKey: Guid(5c9c5b775d408e449acff71c99c6be3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Plasma, Energy and Lazer Weapons/WAV/sfx_grenades _1.wav using Guid(5c9c5b775d408e449acff71c99c6be3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329f95a4855919f0f04f361041d7a3ce') in 0.015429 seconds 
+  Import took 0.019859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 113.204867 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Plasma, Energy and Lazer Weapons/WAV/sfx_laser_gun_1.wav
+  artifactKey: Guid(9babdee5a79ffa14eb69951464145333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Plasma, Energy and Lazer Weapons/WAV/sfx_laser_gun_1.wav using Guid(9babdee5a79ffa14eb69951464145333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b35fbfb5fd7d174525912474d0ffff') in 0.015946 seconds 
+  Import took 0.024102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Plasma, Energy and Lazer Weapons/WAV/sfx_laser_gun_2.wav
+  artifactKey: Guid(d4ee0a9c7c5b51746bee105943c21b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Plasma, Energy and Lazer Weapons/WAV/sfx_laser_gun_2.wav using Guid(d4ee0a9c7c5b51746bee105943c21b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ad722948b11181f8e3747e09cf08c0') in 0.012040 seconds 
+  Import took 0.015268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Plasma, Energy and Lazer Weapons/WAV/sfx_laser_gun_3.wav
+  artifactKey: Guid(a4e2fede609bb1748a039843f72dfce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/Sci-Fi Freedom World Sounds - Free Package/Plasma, Energy and Lazer Weapons/WAV/sfx_laser_gun_3.wav using Guid(a4e2fede609bb1748a039843f72dfce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9b6b03aaed8606bdfd6682e063a5e8') in 0.011434 seconds 
+  Import took 0.015040 seconds .
+
