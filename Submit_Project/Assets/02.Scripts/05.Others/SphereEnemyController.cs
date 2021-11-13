@@ -2,25 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-/***** Inheritance *****/
-public class SphereEnemyController : EnemyController
+public class SphereEnemyController : EnemyController /***** Inheritance *****/
 {
+    private float speedAmplifier;
     void Start()
     {
         enemyPoints = 10;
-        enemySpeed =  10.0f;
-        speedAmplifier = 1f;//Mathf.Abs(Mathf.Sin(Time.time));
+        enemySpeed = 5.0f;
+        speedAmplifier = Mathf.Abs(Mathf.Sin(Time.time));
         enemyRb = GetComponent<Rigidbody>();
     }
 
     void Update()
     {
-        Movement();
+        Movement(); /***** Abstraction *****/
     }
 
-    /***** Polymorphism *****/
-    public override void Movement()
+    public override void Movement() /***** Polymorphism *****/
     {
-        base.Movement();
+        enemyRb.AddForce(Vector3.back * enemySpeed * speedAmplifier);
     }
 }

@@ -4,34 +4,47 @@ using UnityEngine;
 
 public class CannonController : MonoBehaviour
 {
-    public GameObject[] canonParts;
+    #region BulletSpawn
+    public GameObject[] cannonParts;
     public GameObject bullet;
-
     private Vector3 bulletSpawnPos = new Vector3(0.0f, 0.0f, 1.0f);
+    #endregion
 
-    /***** Encapsulation *****/
+    #region BulletFire
     private static int fireCount = 5;
     public static int canYouFire
     {
+        /***** Encapsulation *****/
         get { return fireCount; }
-        set { fireCount = value; }        
+        set { fireCount = value; }
     }
+    public AudioClip shootSound;
+    public AudioClip[] reloadSound;
+    private new AudioSource audio;
+    [SerializeField] private float shootVolume;
+    [SerializeField] private float reloadVolume;
+    #endregion
 
     private void Start()
     {
         PlaySceneUI.UpdateLoad();
+        audio = GetComponent<AudioSource>();
     }
 
     void Update()
     {
-        GameOverChecker();
+        /***** Abstraction *****/
+        GameOverChecker(); // Method 1
+        ReloadChecker(); // Method 2
     }
 
+    #region Method 1
     void GameOverChecker()
     {
         if (GameManager.isGameOver_GM == false)
         {
-            ProduceBullet();
+            /***** Abstraction *****/
+            ProduceBullet(); // Method 1-1
         }
         if (GameManager.isGameOver_GM == true)
         {
@@ -39,27 +52,38 @@ public class CannonController : MonoBehaviour
         }
     }
 
+    // Method 1-1
     void ProduceBullet()
     {
-        /* Think of better ways to shorten it, there must be better ways!
-         * 1. get input
-         * 2. (if it's numpad input), convert that value to integer
-         * 3. Run InstantiateBullet(inputNum)
-        */
-
-        for (int index = 0; index < canonParts.Length; index++)
+        for (int index = 0; index < cannonParts.Length; index++)
         {
-            if (Input.GetKeyDown((index+1).ToString()) && fireCount > 0)
+            if (Input.GetKeyDown((index + 1).ToString()) && fireCount > 0)
             {
-                InstantiateBullet(index);
+                /***** Abstraction *****/
+                InstantiateBullet(index); // Method 1-2
                 fireCount--;
                 PlaySceneUI.UpdateLoad();
             }
         }
     }
 
-    void InstantiateBullet(int canonIndex)
+    // Method 1-2
+    void InstantiateBullet(int cannonIndex)
     {
-        Instantiate(bullet, canonParts[canonIndex].transform.position + bulletSpawnPos, bullet.transform.rotation);
+        Instantiate(bullet, cannonParts[cannonIndex].transform.position + bulletSpawnPos, bullet.transform.rotation);
+        audio.PlayOneShot(shootSound, shootVolume);
     }
+    #endregion
+
+    #region Method 2
+    void ReloadChecker()
+    {
+        if (BulletController.isReloaded == true)
+        {
+            int soundIndex = Random.Range(0, reloadSound.Length);
+            audio.PlayOneShot(reloadSound[soundIndex], reloadVolume);
+            BulletController.isReloaded = false;
+        }
+    }
+    #endregion
 }

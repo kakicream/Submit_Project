@@ -10,6 +10,11 @@ public class DestroyerController : MonoBehaviour
 
     void Update()
     {
+        ParticleOn(); /***** Abstraction *****/
+    }
+
+    void ParticleOn()
+    {
         if (GameManager.isGameOver_GM == true && particlePlayCount > 0)
         {
             Instantiate(gameOverParticle, particlePos, gameOverParticle.transform.rotation);

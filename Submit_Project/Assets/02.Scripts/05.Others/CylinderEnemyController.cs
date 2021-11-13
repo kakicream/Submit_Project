@@ -2,26 +2,25 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-/***** Inheritance *****/
-public class CylinderEnemyController : EnemyController
+public class CylinderEnemyController : EnemyController /***** Inheritance *****/
 {
+    private float speedAmplifier;
     void Start()
     {
         enemyPoints = 15;
-        enemySpeed = 10.0f;
-        speedAmplifier = 1f;// Mathf.Exp(0.5f);
+        enemySpeed = 7.0f;
+        speedAmplifier = Mathf.Abs(Mathf.Cos(Time.time));
         enemyRb = GetComponent<Rigidbody>();
     }
 
     void Update()
     {
-        Movement();
+
+        Movement(); /***** Abstraction *****/
     }
 
-    /***** Polymorphism *****/
-    public override void Movement()
+    public override void Movement() /***** Polymorphism *****/
     {
-        //enemySpeed = Mathf.Abs(Mathf.Sin(Time.time)) * speedAmplifier;
-        base.Movement();
+        enemyRb.AddForce(Vector3.back * enemySpeed * speedAmplifier);
     }
 }

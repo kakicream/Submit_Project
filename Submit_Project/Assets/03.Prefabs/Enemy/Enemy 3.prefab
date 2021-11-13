@@ -116,6 +116,8 @@ MonoBehaviour:
   enemySpeed: 0
   speedAmplifier: 0
   explosionParticle: {fileID: 3302442364004722509, guid: 10434d6bf3af98b46a88ab696f543ee3, type: 3}
+  destroySound: {fileID: 8300000, guid: 8524588a69a4f3e40bb597b6221138f1, type: 3}
+  volume: 1
 --- !u!135 &4900292661673134982
 SphereCollider:
   m_ObjectHideFlags: 0
